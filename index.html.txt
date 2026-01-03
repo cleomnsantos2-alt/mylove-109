@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>109 🤍</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="hero fade-in">
+    <h1>109 🤍</h1>
+    <p>isso não é um site, é uma declaração que fica</p>
+  </section>
+
+  <section>
+    <h2>04/04/2024</h2>
+    <p>primeira foto</p>
+  </section>
+
+  <section>
+    <h2>04/08/2025</h2>
+    <p>primeiro buquê e a realização de um sonho</p>
+  </section>
+
+  <section>
+    <h2>O que você mudou em mim</h2>
+    <p>
+      você trouxe calma onde antes era pressa.<br>
+      me ensinou a ficar, a sentir, a acreditar.<br>
+      com você, eu aprendi que amor também é casa.
+    </p>
+  </section>
+
+  <section class="last-question glow">
+    <p>Você entende o porquê eu escolheria você de novo?</p>
+  </section>
+
+  <footer>
+    <p>May & Sam 🤍</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

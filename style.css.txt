@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff5f7;
+  color: #4a1c1c;
+  text-align: center;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(180deg, #ffd6dc, #fff5f7);
+}
+
+.fade-in {
+  animation: fade 2.5s ease;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.last-question {
+  font-size: 1.6rem;
+  padding: 100px 20px;
+}
+
+.glow {
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow: 0 0 5px #ff9aa2;
+  }
+  50% {
+    text-shadow: 0 0 20px #ff4d6d;
+  }
+  100% {
+    text-shadow: 0 0 5px #ff9aa2;
+  }
+}
+
+footer {
+  padding: 20px;
+  font-size: 0.9rem;
+}
